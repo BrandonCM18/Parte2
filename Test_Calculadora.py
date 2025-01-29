@@ -23,8 +23,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(dividir(9, 3), 3)
 
     def test_dividir_por_cero(self):
-        self.assertEqual(dividir(10, 0), "Error: División por cero")
+        self.assertEqual(dividir(10, 0), "Error: Division por cero")
 
 if __name__ == "__main__":
     unittest.main()
-    

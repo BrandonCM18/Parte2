@@ -54,11 +54,11 @@ def calculadora():
         elif opcion == '4':
             # Usamos pdb para depuracion si el usuario ingresa 0 como divisor
             if b == 0:
-                print("Activando depuración...")
+                print("Activando depuracion...")
                 pdb.set_trace()
             resultado = dividir(a, b)
         else:
-            print("Opción no válida")
+            print("Opcion no valida")
             continue
         
         print(f"Resultado: {resultado}")
